@@ -1,3 +1,13 @@
+.main_header {
+	padding-top: .8em;
+	padding-bottom: .75em;
+	position: fixed;
+	width: 100%;
+	background: hsla(0,0%,100%, .9);
+	border-top: 6px solid black;
+	z-index: 1000;
+}
+
 .logo_container {
 	float: left;
 }
@@ -10,18 +20,23 @@
 }
 
 .logo_word {
-	width: 8em;
+	width: 5.5em;
+	a {
+		display: block;
+		line-height: 1;
+	}
 }
 
 .logo_meta_info {
 	@extend .headline;
 	width: 100%;
 	line-height:1.2;
-	font-size: .55em;
+	font-size: .45em;
 	color: #333;
-	margin-top: -.45em;
+	margin-top: -.25em;
 	margin-left: .05em;
 	float: left;
+	color: #888;
 }
 
 .site_header_container {

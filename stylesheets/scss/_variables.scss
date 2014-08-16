@@ -27,6 +27,18 @@ $body_background: 	$black_1;
 $link-color:        hsl(0,0%,67%);
 $link-hover:        $black;
 
+// z-index
+
+$close-bio: 3000;
+$main-zindex: 2000;
+$bio-zindex: 1000;
+
+// Width of the hidden author bio section
+
+$bio-width-S: 95%; // > 320px - see partials > _layout.scss
+$bio-width-M: 600px; // > 768px
+$bio-width-L: 800px; // > 1200px
+
 /*********************
 TYPOGRAPHY
 *********************/
